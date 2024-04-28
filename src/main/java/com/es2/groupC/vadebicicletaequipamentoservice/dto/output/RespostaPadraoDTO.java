@@ -1,14 +1,14 @@
-package com.es2.groupC.vadebicicletatotemservice.dto.output;
+package com.es2.groupC.vadebicicletaequipamentoservice.dto.output;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@EqualsAndHashCode
-public class RespostaPadrao {
+@Builder
+public class RespostaPadraoDTO {
     private String mensagemRetorno;
 }

@@ -1,1 +1,1 @@
-# es2-vadebicileta-totem-service
+# es2-vadebicileta-equipamento-service
