@@ -21,12 +21,12 @@ public class TotemController {
         return ResponseEntity.ok(new RespostaPadrao());
     }
 
-    @PatchMapping("/totens/{numeroTotem}/incluir-tranca")
+    @PatchMapping("/{numeroTotem}/incluir-tranca")
     public ResponseEntity<RespostaPadrao> incluirTranca(@PathVariable String numeroTotem, @RequestBody IncluirTrancaDTO dto){
         return ResponseEntity.ok(new RespostaPadrao());
     }
 
-    @PatchMapping("/totens/{numeroTotem}/retirar-tranca")
+    @PatchMapping("/{numeroTotem}/retirar-tranca")
     public ResponseEntity<RespostaPadrao> retirarTranca(@PathVariable String numeroTotem, @RequestBody RetirarTrancaDTO dto){
         return ResponseEntity.ok(new RespostaPadrao());
     }
