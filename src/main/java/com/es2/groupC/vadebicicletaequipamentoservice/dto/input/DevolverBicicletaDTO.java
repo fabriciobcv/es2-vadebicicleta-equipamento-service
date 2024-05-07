@@ -10,5 +10,6 @@ import lombok.NoArgsConstructor;
 @Data
 @Builder
 public class DevolverBicicletaDTO {
+    private String numeroBicicleta;
     private String numeroTrancaDevolucao;
 }

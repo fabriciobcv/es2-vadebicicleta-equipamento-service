@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 @Builder
-public class ManejarTranca {
+public class IncluirTrancaDto {
     private String numeroTranca;
-    private Integer codOperacao;
+    private String numeroTotem;
 }

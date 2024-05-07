@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 @Builder
-public class ManejarBicicletaDTO {
+public class InclusaoBicicletaDto {
     private String numeroBicicleta;
-    private Integer codOperacao;
+    private String numeroTotem;
 }
